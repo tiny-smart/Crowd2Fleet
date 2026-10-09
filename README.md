@@ -1,1 +1,5 @@
 # Crowd2Fleet
+
+Object counting and localization serve as key vision tasks in remote sensing. Though many remote sensing object detection datasets exist, point annotated datasets remain limited and primarily focus on low mobility targets. Point-level counting and localization resources specific to remote sensing imagery remain scarce, particularly for people, vehicles, and vessels. This study introduces Crowd2Fleet, a remote sensing counting and localization dataset tailored to these three highly dynamic categories. Crowd2Fleet is organized into three subsets and comprises 6,254 images with 519,912 annotated instances, and each instance is annotated with both a center point and a bounding box. In addition, we propose the dynamic probability map generation that captures object scale from the point annotations. We benchmark a broad set of contemporary point based models on the proposed dataset to establish reference baselines for future research.
+
+All data, code, and scripts are publicly available on [Zenodo](https://zenodo.org/records/17413527).
